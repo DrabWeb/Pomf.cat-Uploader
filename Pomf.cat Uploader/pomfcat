@@ -1,0 +1,28 @@
+#!/bin/bash
+# Simple mixtape uploader by @sugoiuguu
+# Requires curl and jshon (http://kmkeen.com/jshon/)
+
+PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+DEST="https://pomf.cat/upload.php"
+FILE="$@"
+CMD=$(basename "$0")
+
+print_usage() {
+	echo 1>&2 "usage: $CMD file"
+}
+
+if [[ -z "$1" || -n "$2" ]]; then
+	print_usage
+	exit 1
+else
+	OUT=$(curl -sf -F files[]="@${FILE}" "${DEST}")
+
+	if [[ $(echo "$OUT" | jshon -e success) =~ true ]]; then
+		POMFENDING=$(echo "$OUT" | jshon -e files -a -e url -u)
+		echo $(echo "https://a.pomf.cat/"; echo $POMFENDING) | sed 's/ //g'
+	else
+		echo "An error occurred!"
+		exit 1
+	fi
+fi

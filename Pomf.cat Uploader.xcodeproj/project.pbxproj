@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D47CA1B1C288353004BA55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47CA1A1C288353004BA55B /* AppDelegate.swift */; };
+		5D47CA1D1C288353004BA55B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47CA1C1C288353004BA55B /* ViewController.swift */; };
+		5D47CA1F1C288353004BA55B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D47CA1E1C288353004BA55B /* Assets.xcassets */; };
+		5D47CA221C288353004BA55B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D47CA201C288353004BA55B /* Main.storyboard */; };
+		5D47CA2D1C288353004BA55B /* Pomf_cat_UploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47CA2C1C288353004BA55B /* Pomf_cat_UploaderTests.swift */; };
+		5D47CA381C288353004BA55B /* Pomf_cat_UploaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47CA371C288353004BA55B /* Pomf_cat_UploaderUITests.swift */; };
+		5D47CA481C2887B0004BA55B /* pomfcat in Resources */ = {isa = PBXBuildFile; fileRef = 5D47CA471C2887B0004BA55B /* pomfcat */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D47CA291C288353004BA55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D47CA0F1C288353004BA55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D47CA161C288353004BA55B;
+			remoteInfo = "Pomf.cat Uploader";
+		};
+		5D47CA341C288353004BA55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D47CA0F1C288353004BA55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D47CA161C288353004BA55B;
+			remoteInfo = "Pomf.cat Uploader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D47CA171C288353004BA55B /* Pomf.cat Uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pomf.cat Uploader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D47CA1A1C288353004BA55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D47CA1C1C288353004BA55B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D47CA1E1C288353004BA55B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D47CA211C288353004BA55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D47CA231C288353004BA55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D47CA281C288353004BA55B /* Pomf.cat UploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pomf.cat UploaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D47CA2C1C288353004BA55B /* Pomf_cat_UploaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomf_cat_UploaderTests.swift; sourceTree = "<group>"; };
+		5D47CA2E1C288353004BA55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D47CA331C288353004BA55B /* Pomf.cat UploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pomf.cat UploaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D47CA371C288353004BA55B /* Pomf_cat_UploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomf_cat_UploaderUITests.swift; sourceTree = "<group>"; };
+		5D47CA391C288353004BA55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D47CA471C2887B0004BA55B /* pomfcat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = pomfcat; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D47CA141C288353004BA55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D47CA251C288353004BA55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D47CA301C288353004BA55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D47CA0E1C288353004BA55B = {
+			isa = PBXGroup;
+			children = (
+				5D47CA191C288353004BA55B /* Pomf.cat Uploader */,
+				5D47CA2B1C288353004BA55B /* Pomf.cat UploaderTests */,
+				5D47CA361C288353004BA55B /* Pomf.cat UploaderUITests */,
+				5D47CA181C288353004BA55B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D47CA181C288353004BA55B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D47CA171C288353004BA55B /* Pomf.cat Uploader.app */,
+				5D47CA281C288353004BA55B /* Pomf.cat UploaderTests.xctest */,
+				5D47CA331C288353004BA55B /* Pomf.cat UploaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D47CA191C288353004BA55B /* Pomf.cat Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				5D47CA1A1C288353004BA55B /* AppDelegate.swift */,
+				5D47CA1C1C288353004BA55B /* ViewController.swift */,
+				5D47CA1E1C288353004BA55B /* Assets.xcassets */,
+				5D47CA201C288353004BA55B /* Main.storyboard */,
+				5D47CA231C288353004BA55B /* Info.plist */,
+				5D47CA471C2887B0004BA55B /* pomfcat */,
+			);
+			path = "Pomf.cat Uploader";
+			sourceTree = "<group>";
+		};
+		5D47CA2B1C288353004BA55B /* Pomf.cat UploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D47CA2C1C288353004BA55B /* Pomf_cat_UploaderTests.swift */,
+				5D47CA2E1C288353004BA55B /* Info.plist */,
+			);
+			path = "Pomf.cat UploaderTests";
+			sourceTree = "<group>";
+		};
+		5D47CA361C288353004BA55B /* Pomf.cat UploaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D47CA371C288353004BA55B /* Pomf_cat_UploaderUITests.swift */,
+				5D47CA391C288353004BA55B /* Info.plist */,
+			);
+			path = "Pomf.cat UploaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D47CA161C288353004BA55B /* Pomf.cat Uploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D47CA3C1C288353004BA55B /* Build configuration list for PBXNativeTarget "Pomf.cat Uploader" */;
+			buildPhases = (
+				5D47CA131C288353004BA55B /* Sources */,
+				5D47CA141C288353004BA55B /* Frameworks */,
+				5D47CA151C288353004BA55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pomf.cat Uploader";
+			productName = "Pomf.cat Uploader";
+			productReference = 5D47CA171C288353004BA55B /* Pomf.cat Uploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D47CA271C288353004BA55B /* Pomf.cat UploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D47CA3F1C288353004BA55B /* Build configuration list for PBXNativeTarget "Pomf.cat UploaderTests" */;
+			buildPhases = (
+				5D47CA241C288353004BA55B /* Sources */,
+				5D47CA251C288353004BA55B /* Frameworks */,
+				5D47CA261C288353004BA55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D47CA2A1C288353004BA55B /* PBXTargetDependency */,
+			);
+			name = "Pomf.cat UploaderTests";
+			productName = "Pomf.cat UploaderTests";
+			productReference = 5D47CA281C288353004BA55B /* Pomf.cat UploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D47CA321C288353004BA55B /* Pomf.cat UploaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D47CA421C288353004BA55B /* Build configuration list for PBXNativeTarget "Pomf.cat UploaderUITests" */;
+			buildPhases = (
+				5D47CA2F1C288353004BA55B /* Sources */,
+				5D47CA301C288353004BA55B /* Frameworks */,
+				5D47CA311C288353004BA55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D47CA351C288353004BA55B /* PBXTargetDependency */,
+			);
+			name = "Pomf.cat UploaderUITests";
+			productName = "Pomf.cat UploaderUITests";
+			productReference = 5D47CA331C288353004BA55B /* Pomf.cat UploaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D47CA0F1C288353004BA55B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DrabWeb;
+				TargetAttributes = {
+					5D47CA161C288353004BA55B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					5D47CA271C288353004BA55B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5D47CA161C288353004BA55B;
+					};
+					5D47CA321C288353004BA55B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5D47CA161C288353004BA55B;
+					};
+				};
+			};
+			buildConfigurationList = 5D47CA121C288353004BA55B /* Build configuration list for PBXProject "Pomf.cat Uploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D47CA0E1C288353004BA55B;
+			productRefGroup = 5D47CA181C288353004BA55B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D47CA161C288353004BA55B /* Pomf.cat Uploader */,
+				5D47CA271C288353004BA55B /* Pomf.cat UploaderTests */,
+				5D47CA321C288353004BA55B /* Pomf.cat UploaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D47CA151C288353004BA55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D47CA481C2887B0004BA55B /* pomfcat in Resources */,
+				5D47CA1F1C288353004BA55B /* Assets.xcassets in Resources */,
+				5D47CA221C288353004BA55B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D47CA261C288353004BA55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D47CA311C288353004BA55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D47CA131C288353004BA55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D47CA1D1C288353004BA55B /* ViewController.swift in Sources */,
+				5D47CA1B1C288353004BA55B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D47CA241C288353004BA55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D47CA2D1C288353004BA55B /* Pomf_cat_UploaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D47CA2F1C288353004BA55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D47CA381C288353004BA55B /* Pomf_cat_UploaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D47CA2A1C288353004BA55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D47CA161C288353004BA55B /* Pomf.cat Uploader */;
+			targetProxy = 5D47CA291C288353004BA55B /* PBXContainerItemProxy */;
+		};
+		5D47CA351C288353004BA55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D47CA161C288353004BA55B /* Pomf.cat Uploader */;
+			targetProxy = 5D47CA341C288353004BA55B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D47CA201C288353004BA55B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D47CA211C288353004BA55B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D47CA3A1C288353004BA55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D47CA3B1C288353004BA55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D47CA3D1C288353004BA55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pomf.cat Uploader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drabweb.Pomf-cat-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D47CA3E1C288353004BA55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pomf.cat Uploader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drabweb.Pomf-cat-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D47CA401C288353004BA55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pomf.cat UploaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drabweb.Pomf-cat-UploaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomf.cat Uploader.app/Contents/MacOS/Pomf.cat Uploader";
+			};
+			name = Debug;
+		};
+		5D47CA411C288353004BA55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pomf.cat UploaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drabweb.Pomf-cat-UploaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomf.cat Uploader.app/Contents/MacOS/Pomf.cat Uploader";
+			};
+			name = Release;
+		};
+		5D47CA431C288353004BA55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pomf.cat UploaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drabweb.Pomf-cat-UploaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pomf.cat Uploader";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5D47CA441C288353004BA55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pomf.cat UploaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drabweb.Pomf-cat-UploaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pomf.cat Uploader";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D47CA121C288353004BA55B /* Build configuration list for PBXProject "Pomf.cat Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D47CA3A1C288353004BA55B /* Debug */,
+				5D47CA3B1C288353004BA55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D47CA3C1C288353004BA55B /* Build configuration list for PBXNativeTarget "Pomf.cat Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D47CA3D1C288353004BA55B /* Debug */,
+				5D47CA3E1C288353004BA55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D47CA3F1C288353004BA55B /* Build configuration list for PBXNativeTarget "Pomf.cat UploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D47CA401C288353004BA55B /* Debug */,
+				5D47CA411C288353004BA55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D47CA421C288353004BA55B /* Build configuration list for PBXNativeTarget "Pomf.cat UploaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D47CA431C288353004BA55B /* Debug */,
+				5D47CA441C288353004BA55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D47CA0F1C288353004BA55B /* Project object */;
+}
