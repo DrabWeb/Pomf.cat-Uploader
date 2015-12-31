@@ -10,7 +10,7 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
+    
     // The status item for the menubar
     var statusItem : NSStatusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSSquareStatusItemLength);
     
@@ -91,17 +91,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Replace new lines with nothing
         uploadedPath = uploadedPath.stringByReplacingOccurrencesOfString("\n", withString: "");
         
-        // Create a task to open the URL
-        var openTask = NSTask();
+        task = NSTask();
         
-        // Set the launch path to the open bash script included in OSX
-        openTask.launchPath = "/usr/bin/open";
+        // Set it to open the pomfcat bash script in the app bundle
+        task.launchPath = NSBundle.mainBundle().bundlePath + "/Contents/Resources/clipboard";
         
-        // Set the argument to be the uploaded files URL
-        openTask.arguments = [uploadedPath];
+        // Set the arguments to only have the file path we want to upload
+        task.arguments = [uploadedPath];
         
-        // Launch the task, which will open the URL in the browser
-        openTask.launch();
+        task.launch();
+        
+        task = NSTask()
+        task.launchPath = "/usr/bin/osascript"
+        task.arguments = ["-e", "display notification \"Uploaded " + uploadedPath + "\" with title \"Pomf.cat Uploader\""]
+        task.launch()
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

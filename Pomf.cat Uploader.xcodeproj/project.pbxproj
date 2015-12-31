@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D165D2B1C35AD82001C7C82 /* clipboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D165D2A1C35AD82001C7C82 /* clipboard */; settings = {ASSET_TAGS = (); }; };
 		5D47CA1B1C288353004BA55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47CA1A1C288353004BA55B /* AppDelegate.swift */; };
 		5D47CA1D1C288353004BA55B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47CA1C1C288353004BA55B /* ViewController.swift */; };
 		5D47CA1F1C288353004BA55B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D47CA1E1C288353004BA55B /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D165D2A1C35AD82001C7C82 /* clipboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = clipboard; sourceTree = "<group>"; };
 		5D47CA171C288353004BA55B /* Pomf.cat Uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pomf.cat Uploader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D47CA1A1C288353004BA55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D47CA1C1C288353004BA55B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				5D47CA201C288353004BA55B /* Main.storyboard */,
 				5D47CA231C288353004BA55B /* Info.plist */,
 				5D47CA471C2887B0004BA55B /* pomfcat */,
+				5D165D2A1C35AD82001C7C82 /* clipboard */,
 			);
 			path = "Pomf.cat Uploader";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D47CA481C2887B0004BA55B /* pomfcat in Resources */,
+				5D165D2B1C35AD82001C7C82 /* clipboard in Resources */,
 				5D47CA1F1C288353004BA55B /* Assets.xcassets in Resources */,
 				5D47CA221C288353004BA55B /* Main.storyboard in Resources */,
 			);
@@ -478,6 +482,7 @@
 				5D47CA3E1C288353004BA55B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D47CA3F1C288353004BA55B /* Build configuration list for PBXNativeTarget "Pomf.cat UploaderTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +491,7 @@
 				5D47CA411C288353004BA55B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D47CA421C288353004BA55B /* Build configuration list for PBXNativeTarget "Pomf.cat UploaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +500,7 @@
 				5D47CA441C288353004BA55B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
