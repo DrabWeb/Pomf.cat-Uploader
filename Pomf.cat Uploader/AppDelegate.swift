@@ -9,7 +9,7 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDelegate {
     
     // The status item for the menubar
     var statusItem : NSStatusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSSquareStatusItemLength);
@@ -24,6 +24,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         // Setup the open panel
         setupOpenPanel();
+        
+        // Set notification centers delegate to our app
+        let nc = NSUserNotificationCenter.defaultUserNotificationCenter()
+        nc.delegate = self
     }
     
     func setupStatusItem() {
@@ -91,6 +95,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Replace new lines with nothing
         uploadedPath = uploadedPath.stringByReplacingOccurrencesOfString("\n", withString: "");
         
+        // Set the task to blank again
         task = NSTask();
         
         // Set it to open the pomfcat bash script in the app bundle
@@ -99,12 +104,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Set the arguments to only have the file path we want to upload
         task.arguments = [uploadedPath];
         
+        // Launch the task
         task.launch();
         
-        task = NSTask()
-        task.launchPath = "/usr/bin/osascript"
-        task.arguments = ["-e", "display notification \"Uploaded " + uploadedPath + "\" with title \"Pomf.cat Uploader\""]
-        task.launch()
+        // Create the new notification
+        let notification = NSUserNotification();
+        
+        // Set the title
+        notification.title = "Pomf.cat Uploader";
+        
+        // Set the informastive text
+        notification.informativeText = "Uploaded " + uploadedPath;
+        
+        // Show the notification
+        NSUserNotificationCenter.defaultUserNotificationCenter().deliverNotification(notification)
+    }
+    
+    public func userNotificationCenter(center: NSUserNotificationCenter, shouldPresentNotification notification: NSUserNotification) -> Bool {
+        // Always show notifications from this app, even if it is frontmost
+        return true
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
